@@ -29,19 +29,3 @@ model = cv.face_LBPHFaceRecognizer.create()
 model.setThreshold(30.0)
 model.train(faces, np.array(labels))
 model.write('model.yaml')
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

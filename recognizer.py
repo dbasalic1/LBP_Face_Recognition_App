@@ -21,7 +21,3 @@ for imgName in images:
     cv.putText(img, osoba, (x-2, y-2), cv.FONT_HERSHEY_PLAIN, 1.5, (255,255,255), 2)
     cv.imshow("Prepoznavanje lica", img)
     cv.waitKey(0)
-
-
-
-
